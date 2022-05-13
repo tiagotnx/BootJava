@@ -1,0 +1,11 @@
+Dê um exemplo de uma variável obedescendo a boa prática camelCase.
+var nomeDaRua;
+
+Por padão, qual o tipo de dado atribuido a uma variável quando esta não recebe nenhum valor?
+undefined
+
+Quais são as duas categorias de tipos de dados do JS?
+primitivos e não primitivos.
+
+É verdade que o JS é uma linguagem server-side? Explique.
+Não, o JS é executado no lado do cliente.

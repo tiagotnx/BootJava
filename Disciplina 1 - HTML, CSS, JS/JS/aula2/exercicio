@@ -1,0 +1,5 @@
+O que são váriáveis em uma lingua de programação?
+As variáveis são espaços reservados na memória.
+
+Dê um exemplo de um tipo de dado e o que este tipo irá representar.
+No JS existem dois tipos de dados, os primitivos (strings, números, boolean, undefined e null) e os não primitivos (objetivos).

@@ -1,0 +1,23 @@
+// Exercício 20
+
+1. Qual a propriedade CSS que permite aplicar um ‘degradê’ em um elemento HTML? De um exemplo.
+background: linear-gradient(white, black)
+
+2. Por padrão, é recomendado que a aplicação do CSS seja na forma inline ou mesmo no próprio 
+corpo do código html.
+Não, o recomendado é que seja em um arquivo separado.
+
+3. Qual a diferença básica entre a unidade de medida pixel (px) e a unidade em percentual (%)?
+A medida em px é fíxa, já em % é relativo.
+
+// Exercício 21 
+
+1. É verdade que todo arquivo CSS precisa estar dentro de outra pasta para que 
+o navegador possa renderizar os estilos das propriedades CSS? 
+Não, ele pode renderizar na mesma pasta que o HTML.
+
+2. É verdade que todo elemento HTML possui por padrão elementos filhos?
+Não, apenas alguns elementos podem ter elementos filhos, mas não é obrigatório.
+
+3. O que é o viewport? 
+A área de visualização no navegador.

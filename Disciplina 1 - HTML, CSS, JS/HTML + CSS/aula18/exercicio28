@@ -1,0 +1,5 @@
+Como é possível descobrir qual é a fonte padão de renderização do navegador?
+Atribuindo nenhuma fonte e verificando a que o navegador escolhe.
+
+É verdade que quando alteramos um CSS diretamente no DEV TOOL automaticamente alteramos o arquivo CSS?
+Não, a alteração no DEV TOOL é apenas virtual.

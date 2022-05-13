@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+}
+header {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(216, 67, 21, 0.3);
+    border-bottom: 3px solid rgb(216, 67, 21);
+}
+h1 {
+    width: 50%;
+    height: auto;
+}

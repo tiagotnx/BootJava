@@ -1,0 +1,28 @@
+* {
+border: 0;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+thead th {
+    background-color: violet;
+    color: white;
+}
+
+main {
+    margin: 40px;
+    width: 50vw;
+    height: auto;
+    background-color: cornsilk;
+    border: 1px solid royalblue;
+}

@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+article#el-pai {
+    width: 100vw;
+    height: 100vh;
+    padding: 5px;
+    background-color: tomato;
+    font-size: 20px;
+}
+
+article#el-pai p#el-filho {
+    width: 100%;
+    height: auto;
+    background-color: coral;
+    font-size: 1.5rem;
+}

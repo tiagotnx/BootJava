@@ -1,0 +1,14 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: darkgrey;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

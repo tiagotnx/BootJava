@@ -1,0 +1,48 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+div#pai {
+    width: 100vw;
+    height: 100vh;
+    background-color: dodgerblue;
+    position: relative;
+}
+
+#filha1 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#filha2 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#filha3 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#filha4 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

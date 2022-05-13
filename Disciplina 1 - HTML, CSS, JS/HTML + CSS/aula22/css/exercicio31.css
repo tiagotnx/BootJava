@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer, nav {
+    width: 80%;
+    background-color: coral;
+    margin: 10px auto 10px auto;
+    display: flex;
+}
+
+header {
+    height: 7vh;
+}
+
+main {
+    height: 27vh;
+}
+
+footer {
+    height: 27vh;
+}
+
+nav {
+    height: 12vh;
+}
+
+.quadrados {
+    width: 48%;
+    height: 250px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.justificar {
+    justify-content: space-around;
+    align-items: center;
+}
+
+#divsolo {
+    width: 98%;
+    height: 10vh;
+    background-color: blueviolet;
+}

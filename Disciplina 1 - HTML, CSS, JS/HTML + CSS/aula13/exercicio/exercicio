@@ -1,0 +1,10 @@
+// Exercício 23
+
+1. Dê uma definição para o elemento HTML <body>.
+O elemento body é um grande container onde vários outros elementos serão inseridos e corresponde ao corpo da página.
+
+2. É correto dizer que por padrão todos os elementos HTML possuem uma definição de margin e padding?
+Não.
+
+3. Uma tag <figure> pode conter várias tags <figurecaptions>?
+Não.

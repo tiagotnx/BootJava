@@ -1,0 +1,60 @@
+     * {
+         margin:0;
+         padding: 0;
+         box-sizing: border-box;
+     }
+     body {
+     
+         background-color: #FFE0B2 ;
+         width: 100vw;
+         height: 100vh;
+         
+       
+     }
+      main {
+          margin:30px auto;
+          width: 600px;
+          height: auto;
+          border:1px solid #FF8A65;
+          background-color: #FBE9E7;
+          display: flex;
+          flex-direction: column;                 
+        }
+
+       .stretch {
+        align-items: stretch; 
+       } 
+
+      div {
+        width: 100px;         
+        padding: 10px;
+        /*background-color: #5E35B1;*/
+        margin:2px;      
+      }
+      .tamanhoFixo {
+          height: 100px;
+      }
+
+      header{
+          width: 100%;
+          height: 60px;
+          background-color: blueviolet;
+      }
+      .flex {
+          display: flex;
+      }
+      #content {
+          background-color:chartreuse;
+          width: 70%;
+          height: 100vw;
+      }
+
+      #barra {
+          background-color: brown;
+          width: 30%;
+          height: 100vw;
+      }
+      #ajuste {
+          width: 100%;
+          height: auto;
+      }

@@ -1,0 +1,5 @@
+Qual a diferença da unidade de medida em e rem?
+A unidade em é proporcional a unidade do elemento pai mais proximo, já a unidade rem é referente ao root 
+
+Como é criada uma variável no CSS? Dê um exemplo.
+--nome_da_var: valor

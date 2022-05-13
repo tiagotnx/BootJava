@@ -1,0 +1,129 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --button-blue: #3091dc;
+    --button-blue-hover: #247cc9;
+    --font-white: #fff;
+    --border-color: #bebebe;
+    --menu-gray-hover: #e4e4e4;
+
+    --font-label: 1rem Arial, Helvetica, sans-serif;
+    --font-input-modal: bold 1rem Arial, Helvetica, sans-serif;
+    --font-input: 0.75rem Arial, Helvetica, sans-serif;
+    --font-title: bold 1.25rem Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.form {
+    align-self: flex-start;
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0.625rem;
+    padding: 0.625rem;
+    width: 20rem;
+    background: var(--font-white);
+}
+
+.form__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 2rem;
+}
+
+.form__header > h1 {
+    font: var(--font-title);
+    text-decoration: underline;
+}
+
+.form__header > span {
+    font: var(--font-title);
+    color: red;
+    cursor: pointer;
+}
+
+.form__label {
+    font: var(--font-label);
+}
+
+.form__input {
+    border: 1px solid var(--border-color);
+    font: var(--font-input-modal);
+    height: 2rem;
+    margin-bottom: 0.625rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.form__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__button {
+    height: 1.35rem;
+    border-radius: 3px;
+    color: var(--font-white);
+    cursor: pointer;
+}
+
+.form__button-nav {
+    width: 3rem;
+    background: rgb(134, 41, 155);
+}
+
+.form__button-new {
+    width: 5rem;
+    background: var(--button-blue);
+}
+
+.form__button-save {
+    width: 5rem;
+    background: green;
+}
+
+.menu {
+    width: 15rem;
+    border-right: 1px solid var(--border-color);
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+    height: 2.125rem;
+    cursor: pointer;
+    margin: 0 0 0.25rem 0;
+    font: var(--font-label);
+    transition: all 0.2s ease-in-out;
+}
+
+.menu__item:hover {
+    background-color: var(--menu-gray-hover);
+}
+
+.menu__item > a {
+    margin: 0 0.35rem;
+    display: flex;
+    align-items: center;
+}
