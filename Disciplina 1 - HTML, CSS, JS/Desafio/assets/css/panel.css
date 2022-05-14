@@ -181,6 +181,12 @@ fieldset > button {
     height: 1.5rem;
     outline: 1px solid #797979;
     border-radius: 2px;
+    cursor: pointer;
+}
+
+fieldset > button:hover {
+    background-color: #dbdbdb;
+    transition: all 0.2s ease-in-out;
 }
 
 th {
