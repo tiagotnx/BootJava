@@ -12,9 +12,9 @@
     --border-color: #bebebe;
     --menu-gray-hover: #e4e4e4;
 
-    --font-label: 1rem Arial, Helvetica, sans-serif;
+    --font-label: 1rem;
     --font-input-modal: bold 1rem Arial, Helvetica, sans-serif;
-    --font-input: 0.75rem Arial, Helvetica, sans-serif;
+    --font-input: 0.75rem;
     --font-title: bold 1.25rem Arial, Helvetica, sans-serif;
 }
 
@@ -25,10 +25,10 @@ body {
 
 body {
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
-    align-items: center;
     display: flex;
     flex: 1;
     justify-content: center;
@@ -37,12 +37,21 @@ main {
 .form {
     align-self: flex-start;
     border: 1px solid var(--border-color);
-    display: flex;
+    display: none;
     flex-direction: column;
     margin: 1rem 0.625rem;
     padding: 0.625rem;
     width: 20rem;
     background: var(--font-white);
+}
+
+.form-active {
+    display: flex;
+}
+
+.form-order {
+    max-width: 45rem;
+    width: 100%;
 }
 
 .form__header {
@@ -73,7 +82,7 @@ main {
     height: 2rem;
     margin-bottom: 0.625rem;
     padding: 0.5rem;
-    width: 100%;
+    min-width: 100%;
 }
 
 .form__container {
@@ -126,4 +135,60 @@ main {
     margin: 0 0.35rem;
     display: flex;
     align-items: center;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid #000;
+    margin: 0.25rem 0;
+}
+
+fieldset {
+    background: var(--border-color);
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+fieldset > input {
+    height: 1.5rem;
+    outline: 1px solid #797979;
+    padding-left: 3px;
+    margin: 5px 0;
+    border-radius: 2px;
+}
+
+input#item {
+    width: 3rem;
+    margin-left: 3px;
+}
+
+input#description {
+    width: 12rem;
+}
+
+input#price {
+    width: 7rem;
+}
+
+input#quantity {
+    width: 7rem;
+}
+
+button {
+    flex: 1;
+    margin-right: 3px;
+    height: 1.5rem;
+    outline: 1px solid #797979;
+    border-radius: 2px;
+}
+
+th {
+    text-align: start;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #004a8b;
+    margin: 0 0 0.2rem 0;
 }
