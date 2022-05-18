@@ -34,6 +34,6 @@ menu.forEach((item) => {
 
 buttonCloseModal.forEach((item) => {
     item.addEventListener("click", () => {
-        item.parentElement.parentElement.classList.remove("form-active");
+        closeAllModals();
     });
 });
