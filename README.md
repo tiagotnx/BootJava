@@ -1,13 +1,13 @@
 # Desktop
 
 <h1 align="center">
-    <img alt="Preview Desktop" title="Preview Desktop" src=".github/site-desktop 1.png" />
+    <img alt="Preview Desktop" title="Preview Desktop" src=".github/site-desktop-1.webp" />
 </h1>
 
 <br>
 
 <h1 align="center">
-    <img alt="Preview Desktop" title="Preview Desktop" src=".github/site-desktop-2.png" />
+    <img alt="Preview Desktop" title="Preview Desktop" src=".github/site-desktop-2.webp" />
 </h1>
 
 <br>
