@@ -2,7 +2,7 @@ const formLogin = document.querySelector("form");
 const { user, pws } = formLogin.elements;
 
 const authentication = () => {
-    fetch("/assets/js/usuario.json")
+    fetch("./assets/js/usuario.json")
         .then((response) => {
             return response.json();
         })
@@ -11,11 +11,9 @@ const authentication = () => {
             const findUser = users.find((item) => {
                 return item.user === user.value && item.pws === pws.value;
             });
-            if (findUser) {
-                window.location.href = "/panel.html";
-            } else {
-                alert("Usuário ou senha incorretos");
-            }
+            findUser
+                ? (window.location.href = "/panel.html")
+                : alert("Usuário ou senha incorretos");
         });
 };
 
